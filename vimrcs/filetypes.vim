@@ -53,3 +53,35 @@ function! CoffeeScriptFold()
 endfunction
 au FileType coffee call CoffeeScriptFold()
 
+
+""""""""""""""""""""""""""""""
+" => Go section
+"""""""""""""""""""""""""""""""
+ au FileType go nmap <Leader>i <Plug>(go-info)
+ au FileType go nmap <Leader>gd <Plug>(go-doc)
+ au FileType go nmap <Leader>r <Plug>(go-run)
+ au FileType go nmap <Leader>b <Plug>(go-build)
+ au FileType go nmap <Leader>t <Plug>(go-test)
+ au FileType go nmap gd <Plug>(go-def-tab)
+ 
+""""""""""""""""""""""""""""""
+" => Code indentation 
+"""""""""""""""""""""""""""""""
+
+au FileType * setlocal shiftwidth=2 softtabstop=2
+au FileType ruby setlocal shiftwidth=2 softtabstop=2
+au FileType html setlocal shiftwidth=2 softtabstop=2
+au FileType xml setlocal shiftwidth=2 softtabstop=2
+au FileType eruby.html setlocal shiftwidth=2 softtabstop=2
+au FileType eco.html setlocal shiftwidth=2 softtabstop=2
+au FileType jsp setlocal shiftwidth=2 softtabstop=2
+au FileType gsp.html setlocal shiftwidth=2 softtabstop=2
+au FileType coffee setlocal shiftwidth=2 softtabstop=2
+au FileType java setlocal shiftwidth=2 softtabstop=2
+au FileType groovy setlocal shiftwidth=2 softtabstop=2
+au FileType css setlocal shiftwidth=2 softtabstop=2
+au FileType javascript setlocal shiftwidth=4 softtabstop=4
+au FileType python setlocal shiftwidth=4 softtabstop=4
+au FileType go setlocal shiftwidth=4 softtabstop=4
+au FileType markdown setlocal shiftwidth=4 softtabstop=4
+
