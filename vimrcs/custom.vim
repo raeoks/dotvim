@@ -1,3 +1,2 @@
-set noerrorbells
-set novisualbell
+set visualbell
 
