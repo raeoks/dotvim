@@ -1,0 +1,9 @@
+*~
+*.swp
+*.swo
+temp_dirs/undodir*
+bundle/vim-ack/.netrwhist
+temp_dirs/yankring_history_v2.txt
+bundle/vim-yankring/doc/tags
+bundle/vim-tlib/doc/tags
+tags
