@@ -3,7 +3,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set font according to system
 if has("mac") || has("macunix")
-    set gfn=DejaVu\ Sans\ Mono:h14,Source\ Code\ Pro:h15,Menlo:h14
+    set gfn=DejaVu\ Sans\ Mono:h12,Source\ Code\ Pro:h15,Menlo:h14
 elseif has("win16") || has("win32")
     set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("linux")
